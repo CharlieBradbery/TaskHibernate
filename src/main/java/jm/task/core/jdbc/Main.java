@@ -3,16 +3,14 @@ package jm.task.core.jdbc;
 import jm.task.core.jdbc.model.User;
 import jm.task.core.jdbc.service.UserService;
 import jm.task.core.jdbc.service.UserServiceImpl;
-import jm.task.core.jdbc.util.Util;
+
 
 import java.sql.*;
 import java.util.List;
 
+
 public class Main {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/mydbtest?useSSL=no&serverTimezone=UTC";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "root";
 
     public static void main(String[] args) throws SQLException, Exception {
 
